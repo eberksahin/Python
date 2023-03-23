@@ -95,12 +95,3 @@ print(1 > 2 or 5 > 2 and 3 > 2) # (1 > 2 or 5 > 2) => True ve (3 > 2) => True; T
 print(1 > 2 and 5 > 2 and 3 > 2) # (1 > 2 and 5 > 2) => False ve (3 > 2) => True; False ve True, "and" olduğu için False değerini döndürür. 
 
 print(1 > 2 or 5 > 2 and 3 > 2) # (1 > 2 or 5 > 2) => True ve (3 > 2) => True; False ve True, "or" olduğu için True değerini döndürür. 
-
-
-
-
-
-
-
-    
-
