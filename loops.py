@@ -23,3 +23,46 @@ print("---------------------")
 lists = ["Csharp", "JavaScript", "Pyhton"]
 for loop in lists:
     print(loop)
+
+# While 
+
+## Sonsuz Döngü
+
+# while True:
+#     print("x")
+print("---------------------")
+# Sonlu Döngü
+
+i = 0
+while i < 10:
+    print("x")
+    i += 1
+print("y")
+
+print("---------------------")
+
+# break
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+# continue
+
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+# else 
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
