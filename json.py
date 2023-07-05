@@ -24,7 +24,7 @@ y = json.dumps(x)
 
 print(y)
 
-## Example
+## Example 
 
 print(json.dumps({"isim": "Berk", "yas": 30}))
 print(json.dumps(["karpuz", "çilek"]))
